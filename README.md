@@ -11,7 +11,7 @@ Safely share tracking data: develop best practice <br> for anonymising threatene
 </div>
 
 ### About the Hackathon:
-- **Date/Time:** Day 1 Monday (12/07/2021) between 03:30 UTC and 04:30 UTC.
+- **Date/Time:** Day 1 Monday (12/07/2021) between 13:00 UTC and 16:00 UTC.
 To convert the program into your local timezone, go to <https://sortee2021.shinyapps.io/program/>.
 - **Zoom link:** TBA
 
