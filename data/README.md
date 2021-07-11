@@ -6,7 +6,7 @@
 Overview of datasets
 </div>
 
-## R packages:
+# R packages:
 
 ```r
 
@@ -32,7 +32,7 @@ for(op in optionalPackages) {
 
 ```
 
-## Datasets:
+# Datasets:
 
 Turkey vultures (**Cathartes aura**) data from: Dodge *et al.* (2014)
 > **Dodge** S, Bohrer G, Bildstein K, Davidson SC, Weinzierl R, Bechard MJ, Barber D, Kays R, Brandes D, Han J, Wikelski M. (**2014**). Environmental drivers of variability in the movement ecology of turkey vultures (*Cathartes aura*) in North and South America. Philosophical Transactions of the Royal Society B: Biological Sciences, 369(1643), 20130195.
@@ -54,9 +54,7 @@ ophiophagus.hannah <- read.csv("data/ophiophagus_hannah.csv")
 
 ```
 
-### Plotting tracks and locations:
-
-Turkey vultures (**Cathartes aura**)
+## Turkey vultures (**Cathartes aura**)
 ```r
 
 ggplot(cathartes.aura) +
@@ -70,7 +68,14 @@ ggplot(cathartes.aura) +
 ```
 ![Vulture locations](outputs/tv_points.png)
 
-Lyle's flying foxes (**Pteropus lylei**) data from: Choden *et al.* (2019) 
+| Individual ID | No. of fixes | Duration  |
+| --------------|------------- | --------- |
+| Leo           | 32,947       | 1999 days |
+| Morongo       | 19,868       | 1092 days |
+| Rosalie       | 28,101       | 1447 days |
+
+
+## Lyle's flying foxes (**Pteropus lylei**) data from: Choden *et al.* (2019) 
 ```r
 
 ggplot(cathartes.aura) +
@@ -84,7 +89,14 @@ ggplot(cathartes.aura) +
 ```
 ![Flying fox locations](outputs/ff_points.png)
 
-King cobras (**Ophiophagus hannah**) data from: Marshall *et al.* (2020)
+| Individual ID | No. of fixes | Duration  |
+| --------------|------------- | --------- |
+| Bat06         | 1801         | 12.4 days |
+| Bat11         | 1724         | 12.3 days |
+| Bat14         | 1855         | 12.4 days |
+
+
+## King cobras (**Ophiophagus hannah**) data from: Marshall *et al.* (2020)
 ```r
 
 ggplot(pteropus.lylei) +
@@ -98,19 +110,10 @@ ggplot(pteropus.lylei) +
 ```
 ![King cobra locations](outputs/kc_points.png)
 
+| Individual ID | No. of fixes | Duration  |
+| --------------|------------- | --------- |
+| AM006         | 2173         | 723 days  |
+| AM007         |  969         | 321 days  |
+| AM015         | 1944         | 680 days  |
 
-```r
-
-# Set data set to review:
-tracking.data <- ophiophagus.hannah
-
-```
-
-### Tracking duration for each individual:
-
-
-### Number of locations for each individual:
-
-
-### CRS and locality:
-
+ 
