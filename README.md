@@ -28,7 +28,8 @@ The Hackathon will be split into 2 sections:
 - ***How* should data obfuscation/anonymization be implemented?** Produce **workflow**, either conceptually ([Jamboards](https://jamboard.google.com/)) and/or practically ([R](https://www.r-project.org/)).
 
 
-Do you want to get involved in the post-hackathon outputs (e.g., preprint)? Please register using the Google form [here](https://docs.google.com/forms/d/e/1FAIpQLSdo0eQPuROnvrLlEnX83fz-1sr-DpiZEs7FkIg4BzYkeAoGUw/viewform).
+Do you want to get involved in the post-hackathon outputs (e.g., preprint)? 
+- Please register using the Google form [here](https://docs.google.com/forms/d/e/1FAIpQLSdo0eQPuROnvrLlEnX83fz-1sr-DpiZEs7FkIg4BzYkeAoGUw/viewform).
 
 ## Proposed timeline: 
 
